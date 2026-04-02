@@ -23,6 +23,8 @@ See the speaker working: [Watch the YouTube Demo](https://youtube.com/shorts/Cwv
 
 ## Wiring and Connections
 
+![Wiring Diagram](./wiring_diagram.png)
+
 ### Power Connections
 
 | Component / Pin | Power Source | Notes |
@@ -30,7 +32,7 @@ See the speaker working: [Watch the YouTube Demo](https://youtube.com/shorts/Cwv
 | **Potentiometer VCC** | `3.3V` | Use 3.3V to ensure the analog signal doesnt exceed the ESP32s 3.3V ADC limit. |
 | **TFT Display VCC** | `3.3V` | Primary power for the display logic. |
 | **TFT Display LED (BL)** | `3.3V` | Backlight power for the display. |
-| **MAX98357A VCC/VIN** | `5V`  | Needs 5V for optimal speaker amplification footprint. |
+| **MAX98357A VCC/VIN** | `5V`  | Needs 5V for optimal speaker amplification. |
 | **Blue LED (Anode)** | `3.3V` | Power via ESP pin. Use a current-limiting resistor. |
 | **All Ground Connections** | `GND` | Tie all component GNDs to the ESP32 GND. |
 
