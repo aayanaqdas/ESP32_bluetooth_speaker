@@ -4,6 +4,11 @@
 
 This project is a Bluetooth speaker built with an ESP32 microcontroller. You pair it to your phone just like a normal Bluetooth speaker, and it plays music through a small speaker using an audio amplifier. It has a TFT screen that shows the current content title, artist/channel, and volume level, with a scrolling effect for long titles. It also has three physical buttons so you can pause or skip tracks without touching your phone, plus a potentiometer to control the volume. This is only tested on Iphone so i cant guarantee it will work with every device.
 
+
+## Demo
+See the speaker working: [Watch the YouTube Demo](https://youtube.com/shorts/CwvdIrRxzno?si=EUpTrKxraHuvu111)
+
+
 ## Components used
 *   **ESP32 DevKit V1**
 *   **MAX98357A Amplifier Module**
